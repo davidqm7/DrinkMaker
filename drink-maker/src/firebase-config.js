@@ -1,0 +1,39 @@
+// Import the functions you need from the SDKs you need
+
+import { initializeApp } from "firebase/app";
+
+import { getAnalytics } from "firebase/analytics";
+
+// TODO: Add SDKs for Firebase products that you want to use
+
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+
+// Your web app's Firebase configuration
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+const firebaseConfig = {
+
+  apiKey: "AIzaSyBzaV0qZN5_BOqPWUxHrojbhPZQ6XkF7uU",
+
+  authDomain: "drink-website.firebaseapp.com",
+
+  projectId: "drink-website",
+
+  storageBucket: "drink-website.appspot.com",
+
+  messagingSenderId: "785095764445",
+
+  appId: "1:785095764445:web:dca44c027964a3d16e6e34",
+
+  measurementId: "G-2Z5547XJWD"
+
+};
+
+
+// Initialize Firebase
+
+const app = initializeApp(firebaseConfig);
+
+const analytics = getAnalytics(app);
