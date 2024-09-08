@@ -15,7 +15,9 @@ The user inputs the alchohol/bottle that they have and any ingredients that they
 
 ## Technology Used
 Frontend: Javascript, React
+
 Backend: Firebase for database, authentication, and hosting.
+
 Database: Firebase Firestore (NoSQL database).
 
 ## Prototype created Using Marvel
