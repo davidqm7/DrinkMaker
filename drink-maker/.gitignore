@@ -21,5 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-drink-maker/src/firebase-config.js
