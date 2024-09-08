@@ -14,7 +14,7 @@ This repository contains ................................................
 The user inputs the alchohol/bottle that they have and any ingredients that they have as well. The output should be all the drink(s) that they can make with the alcohol and the ingredients. 
 
 ## Technology Used
-Frontend: Javascript, React
+Frontend: Javascript, React framework
 
 Backend: Firebase for database, authentication, and hosting.
 
