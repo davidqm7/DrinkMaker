@@ -15,7 +15,7 @@ import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyBzaV0qZN5_BOqPWUxHrojbhPZQ6XkF7uU",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
 
   authDomain: "drink-website.firebaseapp.com",
 
@@ -23,11 +23,11 @@ const firebaseConfig = {
 
   storageBucket: "drink-website.appspot.com",
 
-  messagingSenderId: "785095764445",
+  messagingSenderId:process.env.REACT_APP_FIREBASE_MESSAGESENDER_ID ,
 
-  appId: process.env.REACT_APP_FIREBASE_API_KEY,
+  appId: process.env.REACT_APP_FIREBASE_API_ID,
 
-  measurementId: "G-2Z5547XJWD"
+  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID,
 
 };
 
