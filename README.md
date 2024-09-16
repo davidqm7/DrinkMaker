@@ -8,7 +8,7 @@ This repository contains ................................................
 -  [Scope](#scope)
 -  [Technology Used](#technology-used)
 -  [Prototype With Marvel](#prototype-created-using-marvel)
--  [Resources and References](#resoruces-and-references)
+-  [Resources and References](#resources-and-references)
   
 ## Scope 
 The user inputs the alchohol/bottle that they have and any ingredients that they have as well. The output should be all the drink(s) that they can make with the alcohol and the ingredients. 
